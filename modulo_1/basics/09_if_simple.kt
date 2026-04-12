@@ -7,7 +7,7 @@ fun main() {
       println("Fiebre detectada: derivar consulta prioritaria")
   } 
   if(temperatura>=40.0){
-    println("Fiebre alta: atencion de emergencia inmediata)
+    println("Fiebre alta: atencion de emergencia inmediata")
   }
   println("Temperatura registrada: $temperatura grados centigrados") 
 }
