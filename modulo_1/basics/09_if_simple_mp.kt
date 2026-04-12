@@ -6,7 +6,7 @@ fun main() {
   if(edad>=18.0){
     println("Mayor de edad")
   } 
-  if(edad>=17.0){
+  if(edad<=17.0){
     println("Menor de edad")
   }
   println("Edad registrada: $edad") 
