@@ -1,8 +1,8 @@
 fun main() {
     //Readline
     println("Operadores Aritmeticos")
-    val numero1=10
-    val numero2=2   
+    var numero1=10
+    var numero2=2   
     println("Suma")
     println("$numero1 + $numero2 : ${numero1+numero2}")
     println("Resta")
