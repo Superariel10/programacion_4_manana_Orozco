@@ -1,5 +1,5 @@
 // ui/S02_Text.kt
-package com.ute.compose.ui
+package com.ute.compose.ui.screens
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
