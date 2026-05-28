@@ -5,7 +5,7 @@
 
 
     <application
-        android:name=".ShopAppplication"
+        android:name=".ShopApplication"
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
