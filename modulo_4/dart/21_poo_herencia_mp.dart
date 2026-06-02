@@ -1,45 +1,45 @@
 // Clase base — comportamiento y datos comunes
-class Sacramiento {
+class Animal {
   final String nombre;
   final int    edadAnios;
 
-  Sacramiento(this.nombre, this.edadAnios);
+  Animal(this.nombre, this.edadAnios);
 
   // Método que cada subclase debe especializar
   String hacerSonido() => '...';
 
   // Método común — reutilizado sin cambios por todas las subclases
   void presentarse() {
-    print('Soy $nombre, tengo $edadAnios años y soy un: ${hacerSonido()}');
+    print('Soy $nombre, tengo $edadAnios años. pertenezco a la iglesia catolica y hago: ${hacerSonido()}');
   }
 }
 
-// HERENCIA: Niño y Adulto reutilizan Sacramiento y lo especializan
-class Niño extends Sacramiento {
-  Niño(super.nombre, super.edadAnios);
+// HERENCIA: Perro y Gato reutilizan Animal y lo especializan
+class Perro extends Animal {
+  Perro(super.nombre, super.edadAnios);
 
   @override
-  String hacerSonido() => '¡Niño!';
+  String hacerSonido() => '¡Guau!';
 
-  void buscarPelota() => print('$nombre busca la pelota para jugar futbol');
+  void buscarPelota() => print('$nombre busca la pelota 🎾');
 }
 
-class Adulto extends Sacramiento {
-  Adulto(super.nombre, super.edadAnios);
+class Gato extends Animal {
+  Gato(super.nombre, super.edadAnios);
 
   @override
-  String hacerSonido() => '¡Adulto!';
+  String hacerSonido() => '¡Miau!';
 
-  void trepar() => print('$nombre trepa al árbol para alcanzar las frutas 🌳');
+  void trepar() => print('$nombre trepa al árbol 🌳');
 }
 
 void main() {
-  final niño = Niño('Juan', 8);
-  final adulto = Adulto('María', 30);
+  final perro = Perro('Ramon', 3);
+  final gato  = Gato('Missa', 5);
 
-  niño.presentarse();   // Soy Juan, tengo 8 años y soy un: ¡Niño!
-  adulto.presentarse();  // Soy María, tengo 30 años y soy un: ¡Adulto!
+  perro.presentarse();  // Soy Rex, tengo 3 años y hago: ¡Guau!
+  gato.presentarse();   // Soy Misu, tengo 5 años y hago: ¡Miau!
 
-  niño.buscarPelota();
-  adulto.trepar();
+  perro.buscarPelota();
+  gato.trepar();
 }
