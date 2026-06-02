@@ -1,20 +1,20 @@
 fun main() {
  println("Map Inmutable")
- val sacramiento = mapOf(
+ val sacramientos = mapOf(
      "Bebe" to "Bautizo",
      "Niño" to "Confirmacion",
      "Adolescente" to "Confesion",
      "Adulto" to "Matrimonio"
  )
  println(sacramientos["Bebe"])
- println(sacramientos["Niño"])
+ println(sacramientos["Anciano"])
  println(sacramientos.getOrDefault("Bebe", "Desconocido"))
- println(sacramientos.getOrDefault("Niño", "Desconocido"))
+ println(sacramientos.getOrDefault("Anciano", "Desconocido"))
  println(sacramientos)
  println(sacramientos.keys)
  println(sacramientos.values)
  println(sacramientos.entries)
- for((edad, sacramiento) in capitales){
+ for((edad, sacramiento) in sacramientos){
      println("$edad - $sacramiento")
  }
  println("Map Mutable")
@@ -34,4 +34,4 @@ fun main() {
     println(registro)
     registro.getOrPut("Carla") {15}
     println(registro)
-}
+}   

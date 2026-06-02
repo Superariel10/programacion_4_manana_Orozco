@@ -1,5 +1,5 @@
 // Sin open — no se puede heredar (protección por defecto)
-class Animal(val nombre: String)
+// class Animal(val nombre: String)
 // class Perro : Animal("Rex")  // ERROR — Animal es final
 
 // Con open — la jerarquía está diseñada para ello
@@ -16,7 +16,7 @@ open class Animal(val nombre: String, val sonido: String) {
 class Perro(nombre: String) : Animal(nombre, "Guau") {
     override fun hacerSonido() {
         super.hacerSonido()          // reutiliza la implementación del padre
-        println("(mueve la cola)")   // añade comportamiento propio
+        println("(mueve la patita)")   // añade comportamiento propio
     }
     override fun descripcion() = "${super.descripcion()}, un perro"
 }
@@ -27,7 +27,7 @@ class Gato(nombre: String, val interior: Boolean) : Animal(nombre, "Miau") {
 }
 
 fun main() {
-    val perro = Perro("Rex")
+    val perro = Perro("Ramon es el perro de la iglesia que")
     perro.hacerSonido()
     // Rex dice: Guau
     // (mueve la cola)
