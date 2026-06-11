@@ -34,5 +34,5 @@ data class ProductFilters(
     val isActive: Boolean? = null,
     val ordering: String? = null,
     val page: Int = 1,
-    val pageSize: Int = 12,
+    val imageUrl: String?,   // null si el producto no tiene imagen aún
 )

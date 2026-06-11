@@ -67,6 +67,7 @@ class CatalogViewModel @Inject constructor(
                 isActive = true,
                 page     = page,
                 pageSize = 12,
+                imageUrl =
             )
             productRepository.getProducts(filters)
                 .onSuccess { (products, total) ->
