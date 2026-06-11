@@ -35,7 +35,6 @@ class ProductRepositoryImpl @Inject constructor(
                 filters.isActive?.let { put("is_active", it.toString()) }
                 filters.ordering?.let { put("ordering",  it) }
                 put("page",      filters.page.toString())
-                put("page_size", filters.pageSize.toString())
             }
             val response = api.getProducts(params)
             if (response.isSuccessful) {
