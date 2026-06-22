@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
-import 'screens/pantalla_dashboard.dart';
 
-void main() => runApp(const AppMonitor());
+import 'widgets/semaforo.dart';
+import 'widgets/cronometro.dart';
+import 'widgets/tarjeta_dispositivo.dart';
+import 'widgets/layout_responsivo.dart';
+
+void main() {
+  runApp(const AppMonitor());
+}
 
 class AppMonitor extends StatelessWidget {
   const AppMonitor({super.key});
@@ -9,13 +15,39 @@ class AppMonitor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title:                      'Monitor Infraestructura',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme:  ColorScheme.fromSeed(seedColor: Colors.indigo),
-        useMaterial3: true,
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Ejercicios Flutter"),
+        ),
+        body: SingleChildScrollView(
+          child: Column(
+            children: const [
+              SizedBox(height: 20),
+
+              Text("Semáforo"),
+              Semaforo(),
+
+              Divider(),
+
+              Text("Cronómetro"),
+              Reloj(),
+
+              Divider(),
+
+              Text("Tarjeta Dispositivo"),
+              TarjetaDispositivo(),
+
+              Divider(),
+
+              Text("Layout Responsivo"),
+              LayoutResponsivo(),
+
+              SizedBox(height: 20),
+            ],
+          ),
+        ),
       ),
-      home: const PantallaDashboard(),
     );
   }
 }
