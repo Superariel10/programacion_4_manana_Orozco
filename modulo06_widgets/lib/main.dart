@@ -20,6 +20,7 @@ void main() => runApp(MaterialApp(
   home: switch (paso) {
     1 => const Scaffold(body: Center(child: Saludo())),
     2 => const CatalogoBasicos(),
+    
     _ => Scaffold(body: Center(child: Text('Paso $paso: crea el widget primero'))),
   },
 ));
