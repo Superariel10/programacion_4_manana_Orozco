@@ -1,0 +1,15 @@
+Initialized native services in: /home/ariel/.gradle/native
+Initialized jansi services in: /home/ariel/.gradle/native
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.14/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Starting process 'Gradle build daemon'. Working directory: /home/ariel/.gradle/daemon/8.14 Command: /usr/lib/jvm/java-21-openjdk-amd64/bin/java --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.xml/javax.xml.namespace=ALL-UNNAMED -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError -Xmx8G -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp /home/ariel/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/gradle-daemon-main-8.14.jar -javaagent:/home/ariel/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/agents/gradle-instrumentation-agent-8.14.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.14
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 0.54 secs.
+The client will now receive all logging from the daemon (pid: 34233). The daemon log file: /home/ariel/.gradle/daemon/8.14/daemon-34233.out.log
+Daemon will be stopped at the end of the build 
+Using 22 worker leases.
+Received JVM installation metadata from '/usr/lib/jvm/java-21-openjdk-amd64': {JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64, JAVA_VERSION=21.0.11, JAVA_VENDOR=Ubuntu, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.11+10-1-24.04.2-Ubuntu, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.11+10-1-24.04.2-Ubuntu, VM_VENDOR=Ubuntu, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android] as hierarchies to watch
+File system watching is active
+Starting Build
+Now considering [/opt/flutter/packages/flutter_tools/gradle, /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android] as hierarchies to watch
