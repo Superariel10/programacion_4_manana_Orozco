@@ -1,0 +1,219 @@
+2026-07-08T09:53:41.944-0500 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized native services in: /home/ariel/.gradle/native
+2026-07-08T09:53:41.962-0500 [INFO] [org.gradle.internal.nativeintegration.services.NativeServices] Initialized jansi services in: /home/ariel/.gradle/native
+2026-07-08T09:53:41.973-0500 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   For more details, please refer to https://docs.gradle.org/8.14/userguide/logging.html#sec:debug_security in the Gradle documentation.
+#############################################################################
+
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface docker0
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.17.0.1
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface virbr0
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.122.1
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface enp86s0
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:464:2bed:d9ec:333a%enp86s0
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.16.0.25
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo
+2026-07-08T09:53:42.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2026-07-08T09:53:42.035-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for metadata, path /home/ariel/.gradle/caches/8.14/jvms/metadata.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@6c2ed0cd
+2026-07-08T09:53:42.073-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Executing build b6b2a701-bf6e-4f56-83cf-503baf8423a5 in daemon client {pid=27690}
+2026-07-08T09:53:42.080-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2026-07-08T09:53:42.081-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-07-08T09:53:42.083-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-07-08T09:53:42.085-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Attempting to connect to [9166fd8b-f3a0-4f0b-9bbd-647d0fc121a0 port:35489, addresses:[/127.0.0.1]].
+2026-07-08T09:53:42.085-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Trying to connect to address /127.0.0.1.
+2026-07-08T09:53:42.086-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpOutgoingConnector] Connected to address /127.0.0.1:35489.
+2026-07-08T09:53:42.091-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Connected to daemon DaemonInfo{pid=27425, address=[9166fd8b-f3a0-4f0b-9bbd-647d0fc121a0 port:35489, addresses:[/127.0.0.1]], state=Idle, lastBusy=1783522413761, context=DefaultDaemonContext[uid=3a7997d2-4629-4edf-bd6e-d23200b7972c,javaHome=/usr/lib/jvm/java-21-openjdk-amd64,javaVersion=21,javaVendor=Ubuntu,daemonRegistryDir=/home/ariel/.gradle/daemon,pid=27425,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=b6b2a701-bf6e-4f56-83cf-503baf8423a5, currentDir=/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android}.
+2026-07-08T09:53:42.091-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Build
+2026-07-08T09:53:42.101-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result org.gradle.launcher.daemon.protocol.BuildStarted@3ecd267f from daemon DaemonInfo{pid=27425, address=[9166fd8b-f3a0-4f0b-9bbd-647d0fc121a0 port:35489, addresses:[/127.0.0.1]], state=Idle, lastBusy=1783522413761, context=DefaultDaemonContext[uid=3a7997d2-4629-4edf-bd6e-d23200b7972c,javaHome=/usr/lib/jvm/java-21-openjdk-amd64,javaVersion=21,javaVendor=Ubuntu,daemonRegistryDir=/home/ariel/.gradle/daemon,pid=27425,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+2026-07-08T09:53:42.101-0500 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 27425). The daemon log file: /home/ariel/.gradle/daemon/8.14/daemon-27425.out.log
+2026-07-08T09:53:42.101-0500 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 3rd build in daemon [uptime: 21.822 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 1% of 4 GiB]
+2026-07-08T09:53:42.102-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-07-08T09:53:42.102-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=3a7997d2-4629-4edf-bd6e-d23200b7972c,javaHome=/usr/lib/jvm/java-21-openjdk-amd64,javaVersion=21,javaVendor=Ubuntu,daemonRegistryDir=/home/ariel/.gradle/daemon,pid=27425,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2026-07-08T09:53:42.103-0500 [INFO] [org.gradle.internal.work.DefaultWorkerLeaseService] Using 22 worker leases.
+2026-07-08T09:53:42.103-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: acquired lock on worker lease
+2026-07-08T09:53:42.103-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Run build' started
+2026-07-08T09:53:42.106-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for fileHashes, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@2642031f
+2026-07-08T09:53:42.106-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for file hash cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/fileHashes)
+2026-07-08T09:53:42.106-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on file hash cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/fileHashes).
+2026-07-08T09:53:42.106-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on file hash cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/fileHashes).
+2026-07-08T09:53:42.107-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for outputFiles, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@37f13f68
+2026-07-08T09:53:42.107-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for Build Output Cleanup Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/buildOutputCleanup)
+2026-07-08T09:53:42.107-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on Build Output Cleanup Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/buildOutputCleanup).
+2026-07-08T09:53:42.107-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on Build Output Cleanup Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/buildOutputCleanup).
+2026-07-08T09:53:42.107-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for resourceHashesCache, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@2642031f
+2026-07-08T09:53:42.108-0500 [INFO] [org.gradle.internal.watch.registry.impl.WatchableHierarchies] Now considering [/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android] as hierarchies to watch
+2026-07-08T09:53:42.109-0500 [INFO] [org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner] Watching the file system is configured to be enabled if available
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner] Watching the file system computed to be enabled if available
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build started for file system watching' started
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected sysfs: /sys from sysfs (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected proc: /proc from proc (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected devtmpfs: /dev from udev (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected devpts: /dev/pts from devpts (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /run from tmpfs (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: / from /dev/nvme0n1p5 (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected securityfs: /sys/kernel/security from securityfs (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /dev/shm from tmpfs (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /run/lock from tmpfs (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected cgroup2: /sys/fs/cgroup from cgroup2 (remote: false)
+2026-07-08T09:53:42.109-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected pstore: /sys/fs/pstore from none (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected efivarfs: /sys/firmware/efi/efivars from efivarfs (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected bpf: /sys/fs/bpf from bpf (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected autofs: /proc/sys/fs/binfmt_misc from systemd-1 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected hugetlbfs: /dev/hugepages from hugetlbfs (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected mqueue: /dev/mqueue from mqueue (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected debugfs: /sys/kernel/debug from debugfs (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tracefs: /sys/kernel/tracing from tracefs (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected fusectl: /sys/fs/fuse/connections from fusectl (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected configfs: /sys/kernel/config from configfs (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/bare/5 from /dev/loop1 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/android-studio/230 from /dev/loop0 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/brave/646 from /dev/loop3 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/android-studio/232 from /dev/loop2 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/brave/648 from /dev/loop4 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/code/244 from /dev/loop5 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/code/247 from /dev/loop6 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/core18/2999 from /dev/loop8 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/core20/2866 from /dev/loop7 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/core24/1587 from /dev/loop9 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/core22/2292 from /dev/loop10 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/core24/1643 from /dev/loop12 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/core22/2411 from /dev/loop11 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/dbeaver-ce/499 from /dev/loop13 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/dbeaver-ce/507 from /dev/loop14 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/figma-linux/197 from /dev/loop15 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/firefox/8568 from /dev/loop17 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/firmware-updater/223 from /dev/loop18 (remote: false)
+2026-07-08T09:53:42.110-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/firmware-updater/226 from /dev/loop19 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/gnome-3-28-1804/198 from /dev/loop21 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/flutter/149 from /dev/loop20 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/gnome-42-2204/247 from /dev/loop22 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/gtk-common-themes/1535 from /dev/loop25 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/gnome-42-2204/263 from /dev/loop23 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/gnome-46-2404/153 from /dev/loop24 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/htop/5913 from /dev/loop26 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/htop/6110 from /dev/loop27 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/intellij-idea-community/762 from /dev/loop28 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/intellij-idea-community/776 from /dev/loop29 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/metasploit-framework/2435 from /dev/loop30 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/mysql-workbench-community/13 from /dev/loop32 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/mesa-2404/1165 from /dev/loop31 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/netbeans/145 from /dev/loop33 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/netbeans/142 from /dev/loop34 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/postman/360 from /dev/loop35 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/redisinsight/33 from /dev/loop36 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/searchsploit/542 from /dev/loop38 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/redisinsight/34 from /dev/loop37 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/searchsploit/566 from /dev/loop40 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/snap-store/1310 from /dev/loop39 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/snap-store/1367 from /dev/loop41 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/snapd/26865 from /dev/loop42 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/snapd/26382 from /dev/loop43 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/snapd-desktop-integration/361 from /dev/loop44 (remote: false)
+2026-07-08T09:53:42.111-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/snapd-desktop-integration/387 from /dev/loop45 (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /run/qemu from tmpfs (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /persist from /dev/nvme0n1p7 (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected ext4: /work from /dev/nvme0n1p8 (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected vfat: /boot/efi from /dev/nvme0n1p1 (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected binfmt_misc: /proc/sys/fs/binfmt_misc from binfmt_misc (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /run/snapd/ns from tmpfs (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected nsfs: /run/snapd/ns/snapd-desktop-integration.mnt from nsfs (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected tmpfs: /run/user/1007 from tmpfs (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected fuse.portal: /run/user/1007/doc from portal (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected fuse.gvfsd-fuse: /run/user/1007/gvfs from gvfsd-fuse (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected squashfs: /snap/firefox/8585 from /dev/loop46 (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected nsfs: /run/snapd/ns/firefox.mnt from nsfs (remote: false)
+2026-07-08T09:53:42.112-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.DefaultWatchableFileSystemDetector] Detected nsfs: /run/snapd/ns/firmware-updater.mnt from nsfs (remote: false)
+2026-07-08T09:53:42.113-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Build started for file system watching'
+2026-07-08T09:53:42.113-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build started for file system watching' completed
+2026-07-08T09:53:42.113-0500 [INFO] [org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner] File system watching is active
+2026-07-08T09:53:42.113-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Load build' started
+2026-07-08T09:53:42.113-0500 [DEBUG] [org.gradle.initialization.properties.DefaultProjectPropertiesLoader] Found env project properties: []
+2026-07-08T09:53:42.113-0500 [DEBUG] [org.gradle.initialization.properties.DefaultProjectPropertiesLoader] Found system project properties: []
+2026-07-08T09:53:42.114-0500 [DEBUG] [org.gradle.initialization.DefaultSettingsLoader] Loading build definition for build: ':'
+2026-07-08T09:53:42.114-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Evaluate settings' started
+2026-07-08T09:53:42.115-0500 [INFO] [org.gradle.internal.buildevents.BuildLogger] Starting Build
+2026-07-08T09:53:42.115-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Gradle user home: /home/ariel/.gradle
+2026-07-08T09:53:42.115-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Current dir: /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android
+2026-07-08T09:53:42.115-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Settings file: null
+2026-07-08T09:53:42.115-0500 [DEBUG] [org.gradle.internal.buildevents.BuildLogger] Build file: null
+2026-07-08T09:53:42.116-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply settings file 'settings.gradle.kts' to settings 'android'' started
+2026-07-08T09:53:42.116-0500 [DEBUG] [org.gradle.kotlin.dsl.provider.KotlinScriptPlugin] Applying Kotlin script to settings 'android'
+2026-07-08T09:53:42.117-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for workingDirs, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/vcsMetadata/workingDirs.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@55acc4db
+2026-07-08T09:53:42.117-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for md5-checksums, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums/md5-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@2120df15
+2026-07-08T09:53:42.117-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for checksums cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums)
+2026-07-08T09:53:42.117-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on checksums cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums).
+2026-07-08T09:53:42.118-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on checksums cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums).
+2026-07-08T09:53:42.118-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for sha1-checksums, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums/sha1-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@2120df15
+2026-07-08T09:53:42.118-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for sha256-checksums, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums/sha256-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@2120df15
+2026-07-08T09:53:42.118-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for sha512-checksums, path /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums/sha512-checksums.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@2120df15
+2026-07-08T09:53:42.118-0500 [DEBUG] [org.gradle.api.internal.artifacts.mvnsettings.DefaultLocalMavenRepositoryLocator] No local repository in Settings file defined. Using default path: /home/ariel/.m2/repository
+2026-07-08T09:53:42.119-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for md-supplier, path /home/ariel/.gradle/caches/8.14/md-supplier/md-supplier.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@4afe0224
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-supplier (/home/ariel/.gradle/caches/8.14/md-supplier)
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-supplier (/home/ariel/.gradle/caches/8.14/md-supplier).
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-supplier (/home/ariel/.gradle/caches/8.14/md-supplier).
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.internal.locking.LockFileReaderWriter] Lockfiles root: /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/gradle/dependency-locks
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Creating new cache for md-rule, path /home/ariel/.gradle/caches/8.14/md-rule/md-rule.bin, access org.gradle.cache.internal.DefaultCacheCoordinator@b67f61c
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Acquiring file lock for cache directory md-rule (/home/ariel/.gradle/caches/8.14/md-rule)
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on cache directory md-rule (/home/ariel/.gradle/caches/8.14/md-rule).
+2026-07-08T09:53:42.120-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on cache directory md-rule (/home/ariel/.gradle/caches/8.14/md-rule).
+2026-07-08T09:53:42.125-0500 [INFO] [org.gradle.internal.watch.registry.impl.WatchableHierarchies] Now considering [/opt/flutter/packages/flutter_tools/gradle, /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android] as hierarchies to watch
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Apply settings file 'settings.gradle.kts' to settings 'android''
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Apply settings file 'settings.gradle.kts' to settings 'android'' completed
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Evaluate settings'
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Evaluate settings' completed
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Load build'
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Load build' completed
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Finish root build tree' started
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Finish root build tree'
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Finish root build tree' completed
+2026-07-08T09:53:42.126-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build finished for file system watching' started
+2026-07-08T09:53:42.127-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Build finished for file system watching'
+2026-07-08T09:53:42.127-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Build finished for file system watching' completed
+2026-07-08T09:53:42.127-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-supplier (/home/ariel/.gradle/caches/8.14/md-supplier)
+2026-07-08T09:53:42.127-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-supplier (/home/ariel/.gradle/caches/8.14/md-supplier).
+2026-07-08T09:53:42.128-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Build Output Cleanup Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/buildOutputCleanup)
+2026-07-08T09:53:42.128-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Build Output Cleanup Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/buildOutputCleanup).
+2026-07-08T09:53:42.128-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for cache directory md-rule (/home/ariel/.gradle/caches/8.14/md-rule)
+2026-07-08T09:53:42.128-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on cache directory md-rule (/home/ariel/.gradle/caches/8.14/md-rule).
+2026-07-08T09:53:42.129-0500 [DEBUG] [org.gradle.api.internal.artifacts.ivyservice.resolveengine.store.ResolutionResultsStoreFactory] Deleted 0 resolution results binary files in 0.0 secs
+2026-07-08T09:53:42.129-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Run build'
+2026-07-08T09:53:42.129-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Run build' completed
+2026-07-08T09:53:42.129-0500 [DEBUG] [org.gradle.internal.resources.AbstractTrackedResourceLock] Daemon worker: released lock on worker lease
+2026-07-08T09:53:42.134-0500 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopping 0 deployment handles
+2026-07-08T09:53:42.134-0500 [DEBUG] [org.gradle.deployment.internal.DefaultDeploymentRegistry] Stopped deployment handles
+2026-07-08T09:53:42.134-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/fileHashes)
+2026-07-08T09:53:42.134-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/fileHashes).
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for checksums cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums)
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on checksums cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/checksums).
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] VCS Checkout Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/vcs-1) has last been fully cleaned up 0 hours ago
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCleanupExecutor] Skipping cleanup for VCS Checkout Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/vcs-1) as it is not yet due
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache VCS Checkout Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/vcs-1) was closed 0 times.
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache VCS metadata (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/vcsMetadata) was closed 0 times.
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Compressed Files Expansion Cache (/home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle/8.14/expanded) was closed 0 times.
+2026-07-08T09:53:42.135-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle' started
+2026-07-08T09:53:42.136-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Deleting unused version-specific caches in /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle'
+2026-07-08T09:53:42.136-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in /home/ariel/Documents/programacion_4_manana_Orozco/modulo13/flutter_shop_app/android/.gradle' completed
+2026-07-08T09:53:42.142-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2026-07-08T09:53:42.180-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.CloseInput
+2026-07-08T09:53:42.186-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClient] Received result Success[value=org.gradle.launcher.exec.BuildActionResult@7c541c15] from daemon DaemonInfo{pid=27425, address=[9166fd8b-f3a0-4f0b-9bbd-647d0fc121a0 port:35489, addresses:[/127.0.0.1]], state=Idle, lastBusy=1783522413761, context=DefaultDaemonContext[uid=3a7997d2-4629-4edf-bd6e-d23200b7972c,javaHome=/usr/lib/jvm/java-21-openjdk-amd64,javaVersion=21,javaVendor=Ubuntu,daemonRegistryDir=/home/ariel/.gradle/daemon,pid=27425,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=4G,-XX:ReservedCodeCacheSize=512m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx8G,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).
+2026-07-08T09:53:42.186-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: dispatching class org.gradle.launcher.daemon.protocol.Finished
+2026-07-08T09:53:42.186-0500 [DEBUG] [org.gradle.launcher.daemon.client.DaemonClientConnection] thread 1: connection stop
+2026-07-08T09:53:42.188-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache cache directory jvms (/home/ariel/.gradle/caches/8.14/jvms) was closed 0 times.
+2026-07-08T09:53:42.188-0500 [LIFECYCLE] [org.gradle.launcher.cli.DebugLoggerWarningAction] 
+#############################################################################
+   WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+
+   Debug level logging will leak security sensitive information!
+
+   For more details, please refer to https://docs.gradle.org/8.14/userguide/logging.html#sec:debug_security in the Gradle documentation.
+#############################################################################
+

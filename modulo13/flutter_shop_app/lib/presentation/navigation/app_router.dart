@@ -7,6 +7,7 @@ import 'package:flutter_shop_app/presentation/screens/admin/dashboard_screen.dar
 import 'package:flutter_shop_app/presentation/screens/admin/orderadmindetail_screen.dart';
 import 'package:flutter_shop_app/presentation/screens/admin/ordersadminscreen.dart';
 import 'package:flutter_shop_app/presentation/screens/admin/productsadminscreen.dart';
+import 'package:flutter_shop_app/presentation/screens/admin/usersadminscreen.dart';
 import 'package:flutter_shop_app/presentation/screens/auth/profile_screen.dart';
 import 'package:flutter_shop_app/presentation/screens/cart/cart_screen.dart';
 import 'package:flutter_shop_app/presentation/screens/catalog/productdetailscreen.dart';
@@ -181,6 +182,13 @@ final routerProvider = Provider<GoRouter>((ref) {
             child:        OrderAdminDetailScreen(
               orderId: int.parse(state.pathParameters['id']!),
               ),
+            ),
+          ),
+          GoRoute(
+            path:    '/admin/users',
+            builder: (_, s) => AdminShell(
+            title: 'Usuarios', currentRoute: s.matchedLocation,
+            child: const UsersAdminScreen(),
             ),
           ),
         ],
