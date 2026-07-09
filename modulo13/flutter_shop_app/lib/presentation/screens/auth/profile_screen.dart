@@ -68,28 +68,25 @@ class ProfileScreen extends ConsumerWidget {
               Text(user?.username ?? '—', style: tt.headlineMedium),
               Text(user?.email    ?? '—', style: tt.bodyMedium),
               const SizedBox(height: 8),
-              if (user?.isStaff == true) ...[
-                SizedBox(
-                  width:  double.infinity,
-                  height: 52,
-                  child:  ElevatedButton.icon(
-                  onPressed: () => context.go('/admin'),
-                    icon:  const Icon(Icons.admin_panel_settings_outlined),
-                    label: const Text('Panel Admin'),
+              if (user?.isStaff == true)
+                Container(
+                  padding:    const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+                  decoration: BoxDecoration(
+                    color:        AppColors.accent.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(999),
+                  ),
+                  child: const Text(
+                    'Staff',
+                    style: TextStyle(
+                      color:         AppColors.accent,
+                      fontSize:      12,
+                      fontWeight:    FontWeight.bold,
+                      letterSpacing: 0.8,
+                    ),
                   ),
                 ),
-                const SizedBox(height: 12),
-                SizedBox(
-                  width:  double.infinity,
-                  height: 52,
-                  child:  ElevatedButton.icon(
-                    onPressed: () => context.push('/send-notification'),
-                    icon:  const Icon(Icons.send_outlined),
-                    label: const Text('Enviar notificación'),
-                  ),
-                ),
-                const SizedBox(height: 12),
-              ],
+              const SizedBox(height: 32),
+
               // Información de la cuenta
               Container(
                 width:   double.infinity,
