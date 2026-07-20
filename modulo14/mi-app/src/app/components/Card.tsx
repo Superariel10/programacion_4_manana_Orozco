@@ -1,22 +1,65 @@
 import { ReactNode } from 'react'
-import { Text, View } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 
 interface CardProps {
-  children: ReactNode       // cualquier JSX válido
   titulo: string
+  subtitulo?: string
+  children: ReactNode
 }
 
-function Card({ titulo, children }: CardProps) {
+export function Card({ titulo, subtitulo, children }: CardProps) {
   return (
-    <View>
-      <Text>{titulo}</Text>
-      {children}
+    <View style={styleCard.card}>
+      <View style={styleCard.cardCabecera}>
+        <Text style={styleCard.cardTitulo}>{titulo}</Text>
+        {subtitulo && (
+          <Text style={styleCard.cardSubtitulo}>{subtitulo}</Text>
+        )}
+      </View>
+      <View style={styleCard.cardCuerpo}>{children}</View>
     </View>
   )
 }
-
-// Uso:
-<Card titulo="web-01">
-  <Text>10.0.2.10 · Ubuntu 24.04</Text>
-  <Text>Estado: Activo</Text>
-</Card>
+const styleCard = StyleSheet.create({
+  fondo: {
+    flex: 1,
+    backgroundColor: '#f0f4f8',
+    padding: 20,
+    paddingTop: 60,
+    gap: 16,
+  },
+  titulo: {
+    fontSize: 20,
+    fontWeight: '700',
+    color: '#1a237e',
+  },
+  card: {
+    backgroundColor: '#ffffff',
+    borderRadius: 12,
+    overflow: 'hidden',
+    shadowColor: '#000',
+    shadowOpacity: 0.07,
+    shadowRadius: 6,
+    shadowOffset: { width: 0, height: 2 },
+    elevation: 3,
+  },
+  cardCabecera: {
+    backgroundColor: '#1565c0',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    gap: 2,
+  },
+  cardTitulo: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#ffffff',
+  },
+  cardSubtitulo: {
+    fontSize: 12,
+    color: '#bbdefb',
+  },
+  cardCuerpo: {
+    padding: 12,
+    gap: 8,
+  },
+})
