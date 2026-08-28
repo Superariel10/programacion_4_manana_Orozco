@@ -43,7 +43,8 @@ data class ProductStatsDto(
     @SerializedName("min_price")      val minPrice:      Double?,
     @SerializedName("total_stock")    val totalStock:    Int?,
     @SerializedName("out_of_stock")   val outOfStock:    Int,
-)
+    @SerializedName("image_url") val imageUrl: String?,
+    )
 
 data class RestockResponseDto(
     val id:          Int,

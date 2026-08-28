@@ -66,7 +66,7 @@ class CatalogViewModel @Inject constructor(
                 ordering = current.ordering.ifBlank { null },
                 isActive = true,
                 page     = page,
-                pageSize = 12,
+                imageUrl = "https://mario.fandom.com/es/wiki/Mario_%26_Luigi:_Superstar_Saga",
             )
             productRepository.getProducts(filters)
                 .onSuccess { (products, total) ->
